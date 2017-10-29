@@ -1,0 +1,6 @@
+User.create(first_name: 'user1', email: 'user1@test.com', password: '1qaz2wsx')
+User.create(first_name: 'user2', email: 'user2@test.com', password: '1qaz2wsx')
+User.create(first_name: 'user3', email: 'user3@test.com', password: '1qaz2wsx')
+Note.create(user_id: 1, title: 'Note by User1')
+Note.create(user_id: 1, title: 'Next Note by User1')
+Note.create(user_id: 2, title: 'Note by User2')
